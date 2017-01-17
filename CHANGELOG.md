@@ -1,3 +1,10 @@
+<a name="1.1.2"></a>
+## 1.1.2 (2017-01-17)
+
+* Fix param ([bda925a](https://github.com/kikobeats/ozutarifa-api/commit/bda925a))
+
+
+
 <a name="1.1.1"></a>
 ## 1.1.1 (2017-01-17)
 
