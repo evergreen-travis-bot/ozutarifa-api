@@ -9,9 +9,7 @@ const log = env === 'development' ? console.log : function () {}
 
 it('works fine', function (done) {
   const ozutarifa = createClient({
-    key: process.env.API_KEY,
-    pages: 2,
-    itemsPerPage: 20
+    key: process.env.API_KEY
   })
 
   const stream = ozutarifa.particular.boards()
@@ -35,11 +33,12 @@ it('works fine', function (done) {
     if (data.year) data.year.should.be.a.Number()
 
     const {title, price, link} = data
-    log(`${++count}: ${title} €${price} ${link}`)
+    log(++count, data)
   })
 
   stream.on('end', function () {
-    count.should.be.equal(20)
+    console.log(count);
+    (count > 1).should.be.true()
     done()
   })
 
