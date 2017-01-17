@@ -2,7 +2,7 @@
   "name": "ozutarifa-api",
   "description": "Programatic API access for ozu-tarifa.com",
   "homepage": "https://github.com/Kikobeats/ozutarifa-api",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "main": "lib",
   "author": {
     "email": "josefrancisco.verdu@gmail.com",
