@@ -1,3 +1,10 @@
+<a name="1.1.3"></a>
+## 1.1.3 (2017-01-17)
+
+* Ensure to clean year from title ([9b16a0a](https://github.com/kikobeats/ozutarifa-api/commit/9b16a0a))
+
+
+
 <a name="1.1.2"></a>
 ## 1.1.2 (2017-01-17)
 
