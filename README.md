@@ -23,7 +23,7 @@ const ozutarifa = require('ozutarifa-api')
 
 const stream = ozutarifa({
   key: process.env.API_KEY, // API Key credentials
-  pages: 3, // Numbers or request per each method call
+  pages: 3, // Numbers or request per each method call [default=Infinity]
   itemsPerPage: 20 // Number of items per page [default=200]
 })
 ```
