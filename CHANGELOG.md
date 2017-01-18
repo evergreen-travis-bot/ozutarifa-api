@@ -1,3 +1,10 @@
+<a name="1.1.5"></a>
+## 1.1.5 (2017-01-18)
+
+* Improve regex year ([194e571](https://github.com/kikobeats/ozutarifa-api/commit/194e571))
+
+
+
 <a name="1.1.4"></a>
 ## 1.1.4 (2017-01-18)
 
