@@ -12,7 +12,7 @@ it('works fine', function (done) {
     key: process.env.API_KEY
   })
 
-  const stream = ozutarifa.particular.boards()
+  const stream = ozutarifa.outlet.sails()
 
   let count = 0
 
@@ -31,13 +31,10 @@ it('works fine', function (done) {
     })
 
     if (data.year) data.year.should.be.a.Number()
-
-    const {title, price, link} = data
     log(++count, data)
   })
 
   stream.on('end', function () {
-    console.log(count);
     (count > 1).should.be.true()
     done()
   })
