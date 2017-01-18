@@ -1,3 +1,11 @@
+<a name="1.1.4"></a>
+## 1.1.4 (2017-01-18)
+
+* Fix featureHash ([bdcdad6](https://github.com/kikobeats/ozutarifa-api/commit/bdcdad6))
+* Tweaks ([bf75400](https://github.com/kikobeats/ozutarifa-api/commit/bf75400))
+
+
+
 <a name="1.1.3"></a>
 ## 1.1.3 (2017-01-17)
 
