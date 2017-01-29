@@ -12,7 +12,7 @@ it('works fine', function (done) {
     key: process.env.API_KEY
   })
 
-  const stream = ozutarifa.outlet.sails()
+  const stream = ozutarifa.store.sails()
 
   let count = 0
 
