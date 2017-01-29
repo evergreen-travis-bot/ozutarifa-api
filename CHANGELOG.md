@@ -1,3 +1,11 @@
+<a name="1.2.0"></a>
+# 1.2.0 (2017-01-29)
+
+* Better title normalization ([f3cd979](https://github.com/kikobeats/ozutarifa-api/commit/f3cd979))
+* Little Refactor ([657dc8c](https://github.com/kikobeats/ozutarifa-api/commit/657dc8c))
+
+
+
 <a name="1.1.5"></a>
 ## 1.1.5 (2017-01-18)
 
