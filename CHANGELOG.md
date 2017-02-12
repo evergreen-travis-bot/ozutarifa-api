@@ -1,3 +1,10 @@
+<a name="1.2.1"></a>
+## 1.2.1 (2017-02-12)
+
+* Better workflow ([8d366ca](https://github.com/kikobeats/ozutarifa-api/commit/8d366ca))
+
+
+
 <a name="1.2.0"></a>
 # 1.2.0 (2017-01-29)
 
