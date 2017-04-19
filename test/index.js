@@ -1,5 +1,3 @@
-/* global it */
-
 'use strict'
 
 const should = require('should')
@@ -17,7 +15,7 @@ it('works fine', function (done) {
   let count = 0
 
   stream.on('data', function (data) {
-    data.should.be.an.Object()
+    should(data).be.an.Object()
     ;[
       ['title', String],
       ['price', Number],
@@ -26,16 +24,16 @@ it('works fine', function (done) {
     ].forEach(function (pair) {
       const prop = pair[0]
       const type = pair[1]
-      data.should.have.property(prop)
-      data[prop].should.be.a[type.name]()
+      should(data).have.property(prop)
+      should(data[prop]).be.a[type.name]()
     })
 
-    if (data.year) data.year.should.be.a.Number()
+    if (data.year) should(data.year).be.a.Number()
     log(++count, data)
   })
 
   stream.on('end', function () {
-    (count > 1).should.be.true()
+    should(count > 1).be.true()
     done()
   })
 
