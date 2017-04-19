@@ -1,3 +1,11 @@
+<a name="1.2.2"></a>
+## 1.2.2 (2017-04-19)
+
+* Add missing return ([9810695](https://github.com/kikobeats/ozutarifa-api/commit/9810695))
+* Tests refactor ([3a8c473](https://github.com/kikobeats/ozutarifa-api/commit/3a8c473))
+
+
+
 <a name="1.2.1"></a>
 ## 1.2.1 (2017-02-12)
 
