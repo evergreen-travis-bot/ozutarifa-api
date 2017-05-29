@@ -1,3 +1,11 @@
+<a name="1.2.3"></a>
+## 1.2.3 (2017-05-29)
+
+* fix(package): update got to version 7.0.0 ([6a617c4](https://github.com/kikobeats/ozutarifa-api/commit/6a617c4))
+* Update travis builds ([37d5715](https://github.com/kikobeats/ozutarifa-api/commit/37d5715))
+
+
+
 <a name="1.2.2"></a>
 ## 1.2.2 (2017-04-19)
 
